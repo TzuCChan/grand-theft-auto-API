@@ -1,0 +1,19 @@
+GET http://localhost:3000/gta
+
+###
+
+GET http://localhost:3000/gta/12
+
+###
+
+POST http://localhost:3000/gta
+Content-Type: application/json
+
+{
+  "name": "GTA",
+  "cityBasedOn": "New York City",
+}
+
+###
+
+DELETE
